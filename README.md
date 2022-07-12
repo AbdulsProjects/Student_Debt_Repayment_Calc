@@ -14,3 +14,6 @@ x = Debt(900000, 0.075, 25000, plan = 2, duration = 30)
 
 An example input with a changing salary is:
 x = Debt(900000, 0.075, {0:25000, 10:50000}, plan = 2, duration = 30)
+
+The __str__ returns the inputted information. 
+The default_payments method calculates the amount payed over the debt duration, and returns information on how much was payed and the year payments cease.
